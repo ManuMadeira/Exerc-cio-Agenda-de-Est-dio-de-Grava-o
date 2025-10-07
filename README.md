@@ -184,6 +184,4 @@ Este projeto foi desenvolvido como exercício educacional.
 
 ---
 
-**Desenvolvido com 💜 e 🎵**
 
-*"Where words fail, music speaks." - Hans Christian Andersen*
