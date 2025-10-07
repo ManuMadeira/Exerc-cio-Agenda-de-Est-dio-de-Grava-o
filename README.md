@@ -1,4 +1,4 @@
-# Exerc-cio-Agenda-de-Est-dio-de-Grava-o
+# Exercicio-Agenda-de-Estudio-de-Gravaçao
 (POO em C# com NRT, Associações unidirecionais, Exceções, Equals e Testes)
 # 🎵 Agenda de Estúdio de Gravação
 
