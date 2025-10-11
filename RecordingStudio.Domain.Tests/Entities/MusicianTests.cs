@@ -1,5 +1,4 @@
-﻿using RecordingStudio.Domain;
-using Xunit;
+﻿using Xunit;
 
 namespace RecordingStudio.Domain.Tests.Entities
 {
