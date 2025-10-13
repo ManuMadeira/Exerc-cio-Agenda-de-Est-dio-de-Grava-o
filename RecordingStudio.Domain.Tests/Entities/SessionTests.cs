@@ -31,4 +31,16 @@ public class SessionTests
         // Act & Assert
         Assert.Throws<InvalidOperationException>(() => session.EnsureHasAtLeastOneParticipant());
     }
+
+    [Fact]
+    public void StudioRoom_Schedule_SessionWithoutParticipants_ThrowsException()
+    {
+        // Arrange
+        var room = new StudioRoom(6, "Sala D");
+        var timeRange = new DateRange(DateTime.Now, DateTime.Now.AddHours(2));
+        var session = new Session(7, room, timeRange);
+
+        // Act & Assert
+        Assert.Throws<InvalidOperationException>(() => room.Schedule(session));
+    }
 }

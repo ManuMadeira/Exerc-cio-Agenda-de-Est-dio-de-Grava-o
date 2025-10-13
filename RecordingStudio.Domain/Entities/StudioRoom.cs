@@ -27,6 +27,9 @@ namespace RecordingStudio.Domain
             if (session.Room != this)
                 throw new InvalidOperationException("A sessão não pertence a esta sala.");
 
+            // Ensure session has participants before scheduling
+            session.EnsureHasAtLeastOneParticipant();
+
             if (_sessions.Any(s => DateRange.Overlaps(s.TimeRange, session.TimeRange)))
                 throw new InvalidOperationException("A sessão sobrepõe com uma sessão existente na mesma sala.");
 
