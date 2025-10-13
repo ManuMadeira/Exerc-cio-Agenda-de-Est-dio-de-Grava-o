@@ -1,5 +1,6 @@
 # Exercicio-Agenda-de-Estudio-de-Gravaçao
 (POO em C# com NRT, Associações unidirecionais, Exceções, Equals e Testes)
+Emmanuelly Madeira, Habner Gabryel Correa, Lucca Vedovato, Leonardo Ferlin, Joao Brandao
 # 🎵 Agenda de Estúdio de Gravação
 
 Um sistema de agendamento para estúdios de gravação desenvolvido em C# com foco em Domain-Driven Design (DDD), testes unitários e boas práticas.
